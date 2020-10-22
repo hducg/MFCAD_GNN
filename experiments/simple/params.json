@@ -1,0 +1,9 @@
+{
+    "learning_rate": 1e-3,
+    "step_size": 10,
+    "batch_size": 12,
+    "num_epochs": 60,        
+    "num_workers": 12,        
+    "nClassesTotal": 16,
+    "gamma": 0.8        
+}
