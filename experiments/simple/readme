@@ -1,1 +1,5 @@
-config files for the simple dataset
+This directory contains config files for training the simple dataset, and list files of shapes for train, valid and test.
+To load the list file, use the following code:
+    with open(path_list, 'rb') as file:
+        paths = pickle.load(file)
+where path_list is the path to the list file, and paths is a list of the shape name, e.x. 3-3-3-4-5-23, whoes step file name is 3-3-3-4-5-23.step.   
